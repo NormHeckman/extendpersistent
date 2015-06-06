@@ -1,16 +1,18 @@
 # Extend Pendrive Linux to utilize your entire USB flash drive.
 
+## This document is under construction. It has only been partially validated. 
+
 ## Problem - 
 Many of us have installed Ubuntu with persistence on USB flash drives using Pendrive Linux. The maximum size of the persistent storage area is 4GB, a limit set by the FAT32 file system. We would like to instead use the entire capacity of the USB drive. Further, we would like to preserve the existing work done on our USB Ubuntu installations.
 
 ##Solution -
 The Pendrive Lunix USB installation consistes of mainly read-only files and one read-write file, 'casper-rw'. The persistent information the user has created is stored in that file.  The file casper-rw can be copied and saved to another storage device. When that file is restored to the same or another USB installation all of the user's work will be restored. In order to crate a larger than 4-GB persistent space
 - [ ] Backup the entire USB stick in case of problems
-- [ ] on a second USB system insert the USB stick
-- [ ] Save the exitsting casper-rw file on UUI
+- [ ] on a second USB system insert the USB stick, label 'UUI'
+- [ ] Save the exitsting casper-rw file from UUI
 - [ ] remove the casper-rw file from the USB stick UUI
 - [ ] shrink the partition to the minimum ssize with partimage
-- [ ] create and ext4 files system 'casper-rw' on the unused space
+- [ ] create an ext4 filesystem 'casper-rw' on the unused space
 - [ ] reboot 
 
 Here are the detailed steps.
@@ -18,7 +20,9 @@ Backup your existing USB stick
 You can use the Windows software USB Image Tool to make a backup
 http://www.alexpage.de/usb-image-tool/
 (I have no affiliation with the author, I found positive recommendations, and the tool works for me.  This software is free and does not need to be installed in windows, it is portable.)
-Or you can use your favorite backup tool. I use Paragon Backup(TM) and Recovery 14 Free. (This software is free, but needs to be installed on Windows. It can also backup drives with multiple partions using this tool.)
+Or you can use your favorite backup tool. I use Paragon Backup(TM) and Recovery 14 Free. (This software is free, but needs to be installed on Windows. This software can also backup drives with multiple partions.)
+
+- - - - ONLY VALIDATED UP TO THIS POINT  - - - - 
 
 Assume that user on the ubuntu machine is logged  in as administrative user hadoop
 First copy the existing persistent file, casper-rw, from the target USB.
