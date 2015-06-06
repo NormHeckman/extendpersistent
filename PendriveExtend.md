@@ -16,6 +16,7 @@ The Pendrive Lunix USB Ubuntu installation consists of many read-only files and 
 - [ ] Copy the casper-rw information to the new partition
 - [ ] Reboot the updated Ubuntu USB stick and resume using it.
 
+**Note:** *If you are intializing your Ubuntu Live USB stick for the first time*, [this link shows how to utilize your entire USB stick for persistence](http://askubuntu.com/questions/397481/how-to-make-a-persistent-live-ubuntu-usb-with-more-than-4gb). A team member has reported sucess in creating a stick with that process. **I recommend that everyone view this link** in order to get more familiarity wiht the process to be described below.
 ### Here are the detailed steps.
 **Backup your original USB stick.** Make a backup of your target USB stick in case of unforseen problems. You can use the Windows software *USB Image Tool* to make a backup to a windows folder on your hard drive.  See:
 ```
