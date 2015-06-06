@@ -17,7 +17,7 @@ The Pendrive Lunix USB Ubuntu installation consists of many read-only files and 
 - [ ] Reboot the updated Ubuntu USB stick and resume using it.
 
 ### Here are the detailed steps.
-** Backup your original USB stick.** Make a backup of your target USB stick in case of unforseen problems. You can use the Windows software *USB Image Tool* to make a backup to a windows folder on your hard drive.  See:
+**Backup your original USB stick.** Make a backup of your target USB stick in case of unforseen problems. You can use the Windows software *USB Image Tool* to make a backup to a windows folder on your hard drive.  See:
 ```
 http://www.alexpage.de/usb-image-tool/
 ```
