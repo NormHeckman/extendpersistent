@@ -55,7 +55,7 @@ This completes the update process.  You can now eject the target USB drive. The 
 
 **Reboot from your updated USB stick** to confirm your success. 
 
-
+**Testing Notes:**  Testing was performed using the Ubuntu 14.04-2 32-bit desktop version. We will test with 64-bit soon. The PCs used for boot testing did not use use UEFI bios, rather the earlier bios type. Wewill test with a UEFI bios next.  Successful backup and restore of a FAT32 USB stick was performed. The transfer of persistent files was also sucessfully tested between FAT32 live Ubuntu USB sticks.  Successful Universal Installer USB installations of Ubuntu was performed on small 1.1GB FAT32 partions.  Sucessful transfers of casper-rw information were performed multiple times. Ask if you have any questions about testing and validation procedures that were used.
 
 
  
