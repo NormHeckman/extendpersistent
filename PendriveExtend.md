@@ -22,7 +22,7 @@ The Pendrive Lunix USB Ubuntu installation consists of many read-only files and 
 ```
 http://www.alexpage.de/usb-image-tool/
 ```
-This software is simple free and portable; *no installation needed*. Or use your favorite backup tool. I use *Paragon Backup(TM) and Recovery 14 Free*.
+This software is simple free and portable; *no installation needed*. Or use your favorite backup tool. I like and use *Paragon Backup(TM) and Recovery 14 Free*.
 
 **Mount the USB stick on another system.** Use Ubuntu to modify your target USB stick. USB Ubuntu cannot modify itself while running.  Therfore use a another running Ubuntu instance, another bootable USB Ubuntu stick or someone elses Ubuntu computer.  In order to avoid confusion, use the an admin *hadoop* account to perform the modifications.  Insert your target USB stick to the running Ubuntu instance and it will be automatically mounted with label *'UUI'*.
 
