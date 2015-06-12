@@ -11,7 +11,7 @@ The Pendrive FAT32 live USB Ubuntu installation consists of many read-only files
 - [ ] 3) Save the existing casper-rw file from the original USB stick
 - [ ] 4) Remove the Fat32 casper-rw file from that USB stick
 - [ ] 5) Shrink the Fat32 partition to the minimum size possible
-- [ ]6) Create a large ext4 partion 'casper-rw' on the rest of the USB stick
+- [ ] 6) Create a large ext4 partion 'casper-rw' on the rest of the USB stick
 - [ ] 7) Copy the casper-rw information to that new partition
 - [ ] 8) Reboot the updated Ubuntu USB stick and resume using it.
 
