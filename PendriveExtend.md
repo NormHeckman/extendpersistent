@@ -11,7 +11,7 @@ The Pendrive FAT32 live USB Ubuntu installation consists of many read-only files
 - [ ] 3) Save the existing casper-rw file from the original USB stick
 - [ ] 4) Remove the Fat32 casper-rw file from that USB stick
 - [ ] 5) Shrink the Fat32 partition to the minimum size possible
-- [ ]6) Create a large ext4 partion 'casper-rw' on the rest of the USB stick
+- [ ] 6) Create a large ext4 partion 'casper-rw' on the rest of the USB stick
 - [ ] 7) Copy the casper-rw information to that new partition
 - [ ] 8) Reboot the updated Ubuntu USB stick and resume using it.
 
@@ -71,7 +71,7 @@ This completes the update process.  You can now eject the target USB drive and r
 
 **8) Reboot from your updated USB stick** Install the updated USB stick in your target computer and reboot to confirm your success. Once your Ubuntu system comes up go to your home directory and check how much free space you have a available. 
 
-**Testing Notes:**  Testing was performed using the Ubuntu 14.04-2 32-bit desktop version. Testing was done on PCs with BIOS boot. *Volunteers are needed to test the 64-bit version and UEFI booting.*  Successful backups and restores of a FAT32 USB stick were performed. The transfer of persistent info was succesfully performed between FAT32 live Ubuntu USB sticks either as a file or a partition.  Note: You can view and modify partions under windows using the AOMEI Partion Assistant, free version. Successful Universal Installer USB installations of Ubuntu were performed on small 1.1GB FAT32 partions.  It may be possible to backup and restore persistent information between different versions of Ubuntu/Linux, for example between 14.04-1 and 14.04-2 and 32-bit/64-bit, but this nas not been researched or tested. If you have any questions about testing and validation procedures that were used, please ask.
+**Testing Notes:**  Testing was performed using the Ubuntu 14.04-2 32-bit desktop version. Testing was done on PCs with BIOS boot. *Volunteers are needed to test the 64-bit version and UEFI booting.*  Successful backups and restores of a FAT32 USB stick were performed. The transfer of persistent info was succesfully performed between FAT32 live Ubuntu USB sticks either as a file or a partition.  Note: You can view and modify partions under windows using the AOMEI Partion Assistant, free version. Successful Universal Installer USB installations of Ubuntu were performed on small 1.1GB FAT32 partions.  It may be possible to backup and restore persistent information between different versions of Ubuntu/Linux, for example between 14.04-1 and 14.04-2 and 32-bit/64-bit, but this has not been researched or tested. If you have any questions about testing and validation procedures that were used, please ask.
 
 
  
