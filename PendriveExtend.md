@@ -1,6 +1,6 @@
 # Extend Pendrive Linux to utilize your entire USB flash drive.
 
-#### Note: Validation testing is in progress.  06/12/2015 neh
+#### Note: Validation testing is in progress.  06/17/2015 neh
 
 ## Problem -
 Many of us have installed Ubuntu with persistence on USB flash drives using the Pendrive Linux Universal-USB-Installer. The maximum size of the persistent storage area is 4GB, a limit set by the FAT32 file system. We would rather use the entire capacity of the USB drive and preserve our existing work.  This issue was raised by the [TSSG Data Analytics team](https://github.com/mikec964/chelmbigstock/wiki). They were implementing a [hands-on learning exercise invoving Apachie Hadoop running on live USB Ubuntu](https://github.com/mikec964/chelmbigstock/wiki/Learning-Hadoop). To avoid dual booting Windows PCs under warranty, several team menbers installed Ubuntu on USB 3 flash drives. 
@@ -71,7 +71,7 @@ This completes the update process.  You can now eject the target USB drive and r
 
 **8) Reboot from your updated USB stick** Install the updated USB stick in your target computer and reboot to confirm your success. Once your Ubuntu system comes up go to your home directory and check how much free space you have a available. 
 
-**Testing Notes:**  Testing was performed using the Ubuntu 14.04-2 32-bit desktop version. Testing was done on PCs with BIOS boot. *Volunteers are needed to test the 64-bit version and UEFI booting.*  Successful backups and restores of a FAT32 USB stick were performed. The transfer of persistent info was succesfully performed between FAT32 live Ubuntu USB sticks either as a file or a partition.  Note: You can view and modify partions under windows using the AOMEI Partion Assistant, free version. Successful Universal Installer USB installations of Ubuntu were performed on small 1.1GB FAT32 partions.  It may be possible to backup and restore persistent information between different versions of Ubuntu/Linux, for example between 14.04-1 and 14.04-2 and 32-bit/64-bit, but this has not been researched or tested. If you have any questions about testing and validation procedures that were used, please ask.
+**Testing Notes:**  Testing was performed using the Ubuntu 14.04-2 32-bit desktop version. Testing was done on PCs with BIOS boot. *Volunteers are needed to test the 64-bit version and UEFI booting.*  Successful backups and restores of a FAT32 USB stick were performed. The transfer of persistent info was succesfully performed between FAT32 live Ubuntu USB sticks either as a file or a partition.  Note: You can view and modify partions under windows using the AOMEI Partion Assistant, free version. Successful Universal Installer USB installations of Ubuntu were performed on small 1.1GB FAT32 partions.  It may be possible to backup and restore persistent information between different versions of Ubuntu/Linux, for example between 14.04-1 and 14.04-2 and 32-bit/64-bit, but this has not been researched or tested. We notice that the persistant image created on one PC may not have correcr drivers for trackpad/mouse on a different PC. Ee find that copying USB sticks could take a long time and lots of memory, especially if Windows has writted hidden files onto the USB stick.  If you have any questions about testing and validation procedures that were used, please ask.
 
 
  
