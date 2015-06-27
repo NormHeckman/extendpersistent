@@ -1,6 +1,6 @@
 # Extend Pendrive Linux to utilize your entire USB flash drive.
 
-#### Note: Validation testing is in progress.  06/17/2015 neh
+#### Note: Validation testing is in progress.  06/27/2015 neh
 
 ## Problem -
 Many of us have installed Ubuntu with persistence on USB flash drives using the Pendrive Linux Universal-USB-Installer. The maximum size of the persistent storage area is 4GB, a limit set by the FAT32 file system. We would rather use the entire capacity of the USB drive and preserve our existing work.  This issue was raised by the [TSSG Data Analytics team](https://github.com/mikec964/chelmbigstock/wiki). They were implementing a [hands-on learning exercise invoving Apachie Hadoop running on live USB Ubuntu](https://github.com/mikec964/chelmbigstock/wiki/Learning-Hadoop). To avoid dual booting Windows PCs under warranty, several team menbers installed Ubuntu on USB 3 flash drives. 
