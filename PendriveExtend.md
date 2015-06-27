@@ -21,7 +21,7 @@ The Pendrive FAT32 live USB Ubuntu installation consists of many read-only files
 ```
 http://www.alexpage.de/usb-image-tool/
 ```
-This software is simple free and portable; *no installation needed*. Or use your favorite backup tool.
+This software is simple free and portable; *no installation needed*. Or use your favorite backup tool.  WARNING: Image backups of a large USB drive will be just as large as the USB capacity.
 
 **2) Mount the USB stick on another system.** Use Ubuntu to modify your target USB stick. *Modifying a live USB Ubuntu instance while it is running is NOT recommended.*  Use a another running Ubuntu instance, another bootable USB Ubuntu stick or someone elses Ubuntu computer.  To avoid confusion for the TSSG application of this solution, use the an admin *hadoop* account to perform the modifications.  Insert your target USB stick to the running Ubuntu instance and it will be automatically mounted with label *'UUI'*.
 
